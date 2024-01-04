@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "794963713226",
+    "project_id": "connectapp-68736",
+    "storage_bucket": "connectapp-68736.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794963713226:android:a6d11af49b1dcae750a833",
+        "android_client_info": {
+          "package_name": "com.example.connect_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpPbmAa_n2g2S4BCnVUcIfwQWOZHB6C5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
