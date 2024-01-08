@@ -1,7 +1,8 @@
 import 'package:connect_app/app/core/extentions/build_context_extentions.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class MyTextFormWidget extends StatelessWidget {
+class MyTextFormWidget extends ConsumerWidget {
   const MyTextFormWidget(
       {required this.controller,
       required this.obscureText,
@@ -37,7 +38,7 @@ class MyTextFormWidget extends StatelessWidget {
   final void Function()? togglePassword;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef) {
     return SizedBox(
       height: context.screenHeight * 0.07,
       child: TextFormField(

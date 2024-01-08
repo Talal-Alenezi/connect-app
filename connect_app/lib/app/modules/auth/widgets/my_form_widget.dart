@@ -62,7 +62,7 @@ class _MyAuthFormState extends State<MyAuthForm> {
                 prefIcon: const Icon(Icons.email),
                 labelText: context.translate.email,
                 textInputAction: TextInputAction.next,
-                onChanged: null,
+                onChanged: (value) {},
               ),
               const SizedBox(
                 height: 12,

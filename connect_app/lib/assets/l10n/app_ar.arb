@@ -1,7 +1,9 @@
 {
+  "@@locale": "",
   "login": "تسجيل الدخول",
   "register": "تسجيل",
   "email": "البريد الإلكتروني",
   "userName": "إسم المستخدم",
-  "password": "الرمز السري"
+  "password": "الرمز السري",
+  "googleRegister": "تسجيل بجوجل"
 }
