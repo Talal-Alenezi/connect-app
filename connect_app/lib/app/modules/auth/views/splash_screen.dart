@@ -10,7 +10,7 @@ class SplashScreen extends StatelessWidget {
       body: Center(
         child: Container(
             height: context.screenHeight * 0.3,
-            width: context.screenWidth * 0.2,
+            width: context.screenWidth * 0.3,
             color: Colors.red,
             child: Center(child: Text(context.translate.login))),
       ),
