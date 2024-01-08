@@ -1,4 +1,7 @@
 {
   "login": "Login",
-  "register": "Register"
+  "register": "Register",
+  "email": "Email",
+  "userName": "User Name",
+  "password": "Password"
 }

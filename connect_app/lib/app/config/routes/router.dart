@@ -1,5 +1,6 @@
 import 'package:connect_app/app/config/routes/my_named_route.dart';
 import 'package:connect_app/app/modules/auth/views/loging.dart';
+import 'package:connect_app/app/modules/auth/views/rgister.dart';
 import 'package:connect_app/app/modules/auth/views/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -33,6 +34,15 @@ abstract class AppRouter {
         pageBuilder: (context, state) => NoTransitionPage(
           key: state.pageKey,
           child: const LoginScreen(),
+        ),
+      ),
+      GoRoute(
+        parentNavigatorKey: rootNavigatorKey,
+        path: "/${MyNamedRoutes.register}",
+        name: MyNamedRoutes.register,
+        pageBuilder: (context, state) => NoTransitionPage(
+          key: state.pageKey,
+          child: RegisterScreen(),
         ),
       ),
     ],
